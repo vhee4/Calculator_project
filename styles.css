@@ -1,0 +1,32 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.calc_cont{
+    padding: 10px;
+    margin: 10px;
+    width: 35%;
+    background-color: lightgray;
+    border: 2px solid gray;
+}
+
+.grid_cont{
+    display: grid;
+    grid-template-columns: repeat(4, 30px);
+    justify-content: center;
+    gap: 5px;
+}
+
+.height{
+    height: 30px;
+}
+
+.top_box{
+    height: 30px;
+    grid-column: 1 / -1;
+    border: 2px solid gray;
+    background-color: ghostwhite;
+}
+
